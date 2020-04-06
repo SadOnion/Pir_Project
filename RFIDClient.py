@@ -5,7 +5,7 @@ class RFIDClient:
 
     uidLen=5
     id=0
-
+    testCard=4627356735619
     def __init__(self,id):
         self.id =id
 

@@ -33,9 +33,6 @@ class Server:
          logs.write(log)
     def getWorker(self,cardId):
         for i in range(len(self.workers)):
-            print( self.workers[i].cardID)
-            print()
-            print(cardId)
             if self.workers[i].cardID == cardId:
                 return self.workers[i]
         return None

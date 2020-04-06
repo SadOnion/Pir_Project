@@ -12,7 +12,7 @@ if __name__=="__main__":
     inp = input()
     while inp != "0":
         if(inp == "1"):
-            cardId = terminal.rfidRead(4627356735619)
+            cardId = terminal.rfidRead(terminal.testCard)
             srv.addLog(cardId)
         if inp == "2":
             id = input("WorkerID:")
