@@ -3,7 +3,8 @@ import random
 import paho.mqtt.client as mqtt
 class RFIDClient:
 
-    broker = "localhost"
+    broker = "DESKTOP-NOGE6FP"
+    port=8883
     client = None
     uidLen=5
     id=0
@@ -13,7 +14,9 @@ class RFIDClient:
         self.client = mqtt.Client()
         self.connectToBroker()
     def connectToBroker(self):
-        self.client.connect(self.broker)
+        self.client.tls_set("ca.crt")
+        self.client.username_pw_set(username='client', password='client')
+        self.client.connect(self.broker, self.port)
         self.sendMessage("Client connected")
     def disconnectFromBroker(self):
         self.sendMessage("Client disconnected")
@@ -31,10 +34,10 @@ class RFIDClient:
             num = cardId
         self.sendCardId(num)
     def sendMessage(self, msg):
-        self.client.publish("terminal/msg",msg)
+        self.client.publish("worker/name",msg)
         print("msg sent")
     def sendCardId(self, cardId):
-        self.client.publish("terminal/msg",str(cardId)+" "+str(self.id))
+        self.client.publish("worker/name",str(cardId)+" "+str(self.id))
         print("msg sent")
 if __name__ == "__main__":
     inp = input("Enter this terminal id:")
