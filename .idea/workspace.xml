@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c38a88d-491f-47aa-9e9c-7508cad62012" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RFIDClient.py" beforeDir="false" afterPath="$PROJECT_DIR$/RFIDClient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server.py" beforeDir="false" afterPath="$PROJECT_DIR$/Server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workerLogs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workerLogs.txt" afterDir="false" />
-    </list>
+    <list default="true" id="9c38a88d-491f-47aa-9e9c-7508cad62012" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../lab_2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,6 +128,7 @@
       <updated>1586092344635</updated>
       <workItem from="1586092346863" duration="12740000" />
       <workItem from="1586110055087" duration="6561000" />
+      <workItem from="1586358720424" duration="176000" />
     </task>
     <servers />
   </component>
@@ -146,6 +140,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="729" y="323" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586092386164" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586358894907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586358894907" />
     <state width="938" height="281" key="GridCell.Tab.0.bottom" timestamp="1586116820218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -182,10 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586110072159" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1586092351978">
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1586358877191">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586092351978" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1586358877191" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586098657061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
